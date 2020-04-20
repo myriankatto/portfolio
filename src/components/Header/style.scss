@@ -1,0 +1,28 @@
+//header
+.header-container {
+  background-image: url('./../../images/bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  padding: 2em;
+  .header-text {
+    text-align: center;
+    width: 70%;
+    height: 110px;
+    margin: 300px auto;
+    text-shadow: 0 2px 30px rgba(72, 65, 154, 0.25);
+    font-family: 'Roboto Slab';
+    font-size: 3rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: normal;
+    span {
+      color: #ffffff;
+    }
+    strong {
+      color: #ffd84f;
+    }
+  }
+}

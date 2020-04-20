@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+
+import Header from './components/Header/Header';
+import Margin from './components/NavBar/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Myrian's Portfolio</h1>
+      <Margin />
+      <Header />
     </div>
   );
 }
