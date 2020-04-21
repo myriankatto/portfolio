@@ -1,16 +1,34 @@
-import React from 'react';
-import './App.scss';
+import React, { Component } from 'react';
 
 import Header from './components/Header/Header';
-import Margin from './components/NavBar/NavBar';
+import NavBar from './components/NavBar/NavBar';
+import Menu from './components/Menu/Menu';
+import About from './components/About/About'
 
-function App() {
-  return (
-    <div className="App">
-      <Margin />
-      <Header />
-    </div>
-  );
+export class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+        menuActive: false
+    };
+    this.clickHandler = this.clickHandler.bind(this); 
+}
+clickHandler() {
+  this.setState({ menuActive: !this.state.menuActive });
+}
+
+  handleMenuActive 
+  render() {
+    return (
+      <div className="App">
+        <NavBar onClick={this.clickHandler} menuActive={this.state.menuActive}/>
+        {this.state.menuActive ? <Menu /> : ''} 
+        <Header/>
+        <About />
+      </div>
+    );
+  }
 }
 
 export default App;

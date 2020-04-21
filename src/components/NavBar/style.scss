@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
 .top,
 .bottom,
@@ -21,6 +22,7 @@
   .icons {
     img {
       padding: 0.3em 0;
+      cursor: pointer;
     }
   }
 }
@@ -54,13 +56,13 @@ justify-content: center;
   }
   h1 {
     font-size: 1em;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
     color: #30333d;
     margin: 0 auto;
+    padding-left: 30px;
   }
 
 }

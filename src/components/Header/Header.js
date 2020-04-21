@@ -1,15 +1,17 @@
-import React from 'react'
-import './style.scss'
+import React from 'react';
+import './style.scss';
 
 import HeaderText from './HeaderText';
 
- function Header() {
+
+function Header() {
   return (
     <div className="header-container">
       <HeaderText />
-    </div>
-  )
-}
 
+  
+    </div>
+  );
+}
 
 export default Header;
