@@ -1,71 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
-.top,
-.bottom,
-.left,
-.right {
-  background: white;
-  position: fixed;
-  color: #30333d;
-  text-align: center;
-}
-.left,
-.right {
-  top: 0;
-  bottom: 0;
-  width: 40px;
-}
-.left {
-  left: 0;
-  display: flex;
-  align-items: center;
-  .icons {
-    img {
-      padding: 0.3em 0;
-      cursor: pointer;
+.margin {
+  position: relative;
+  z-index: 4;
+  .top,
+  .bottom,
+  .left,
+  .right {
+    background: white;
+    position: fixed;
+    color: #30333d;
+    text-align: center;
+  }
+  .left,
+  .right {
+    top: 0;
+    bottom: 0;
+    width: 40px;
+  }
+  .left {
+    left: 0;
+    display: flex;
+    align-items: center;
+    .icons {
+      img {
+        padding: 0.3em 0;
+        cursor: pointer;
+      }
+      img:hover {
+        opacity: 0.9;
+      }
     }
   }
-}
-.right {
-	right: 0;
-	display: flex;
-	flex-direction: column;
-justify-content: center;
-	h2{
-		transform: rotate(90deg);
-		font-size: 15px;
-    font-weight: 400;
-	}
-}
-
-.top,
-.bottom {
-  left: 0;
-  right: 0;
-  height: 40px;
-
-}
-.top {
-  top: 0;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  margin: 0 40px;
-  span{
-    font-size: 0.7em;
+  .right {
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto Slab';
+    font-weight: 800;
+    h2 {
+      transform: rotate(90deg);
+      font-size: 15px;
+      font-weight: 400;
+    }
   }
-  h1 {
-    font-size: 1em;
+
+  .top,
+  .bottom {
+    left: 0;
+    right: 0;
+    height: 40px;
+  }
+  .top {
+    top: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 40px;
+    span {
+      font-size: 0.7em;
+      cursor: pointer;
+    }
+    span:hover {
+      color: #30333d9a;
+    }
+    h1 {
+      font-size: 1em;
+      font-family: 'Roboto Slab';
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: #30333d;
+      margin: 0 auto;
+      padding-left: 30px;
+    }
+  }
+  .bottom {
+    bottom: 0;
+  }
+}
+
+.menu{
+
+display:flex;
+flex-direction:column;
+.link-item{
     font-family: 'Roboto Slab';
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
+    font-size: 2.5em;
     color: #30333d;
-    margin: 0 auto;
-    padding-left: 30px;
-  }
+    font-size: 50px;
+    text-decoration: none;
+    line-height: 1.3;
+    cursor:pointer;
 
 }
-.bottom {
-  bottom: 0;
 }

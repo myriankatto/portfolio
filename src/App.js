@@ -1,32 +1,44 @@
 import React, { Component } from 'react';
 
 import Header from './components/Header/Header';
+import About from './components/About/About';
 import NavBar from './components/NavBar/NavBar';
-import Menu from './components/Menu/Menu';
-import About from './components/About/About'
+import NavBarMenu from './components/NavBar/NavBarMenu';
+import { BrowserRouter } from 'react-router-dom';
+import Tasksy from './components/Projects/Tasksy';
+import BooksandTea from './components/Projects/BooksandTea';
+import Wasabi from './components/Projects/wasabi';
+import Contacts from './components/Contacts/Contacts';
 
 export class App extends Component {
   constructor() {
     super();
 
     this.state = {
-        menuActive: false
+      menuActive: false,
     };
-    this.clickHandler = this.clickHandler.bind(this); 
-}
-clickHandler() {
-  this.setState({ menuActive: !this.state.menuActive });
-}
 
-  handleMenuActive 
+    this.clickHandler = this.clickHandler.bind(this);
+  }
+
+  clickHandler() {
+    this.setState({ menuActive: !this.state.menuActive });
+  }
+
   render() {
     return (
-      <div className="App">
-        <NavBar onClick={this.clickHandler} menuActive={this.state.menuActive}/>
-        {this.state.menuActive ? <Menu /> : ''} 
-        <Header/>
-        <About />
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <NavBar onClick={this.clickHandler} menuActive={this.state.menuActive} />
+          {this.state.menuActive ? <NavBarMenu /> : ''}
+          <Header />
+          <About />
+          <Tasksy />
+          <BooksandTea />
+          <Wasabi />
+          <Contacts />
+        </div>
+      </BrowserRouter>
     );
   }
 }

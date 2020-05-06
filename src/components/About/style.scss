@@ -1,6 +1,40 @@
-.about{
-  background-color:#F8FAFD;
-  height: 300px;
-  color: 30333d;
-  text-align: center;
+.about {
+  display: flex;
+  margin: 0 40px;
+  .about-text {
+    width: 50%;
+    font-family: 'Roboto Slab';
+    background-color: #f8fafd;
+    padding: 11em 5em;
+    h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      color: #fb6f6f;
+      text-transform: uppercase;
+      letter-spacing: 1em;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2em;
+      color: #30333d;
+      margin: 0;
+    }
+    p {
+      font-size: 0.9em;
+      font-weight: 300;
+      color: #30333d;
+      line-height: 1.5em;
+    }
+  }
+  .about-image {
+    width: 50%;
+    background-color: #30333d;
+    padding: 3em 3em 0 3em;
+    display: flex;
+    img {
+      max-width: 100%;
+      height: auto;
+      align-self: flex-end;
+    }
+  }
 }

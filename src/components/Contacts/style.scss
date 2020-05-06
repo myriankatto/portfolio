@@ -1,0 +1,45 @@
+.contacts {
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  font-family: 'Roboto Slab';
+  background-color: #f8fafd;
+
+  .contacts-left {
+
+    width: 50%;
+    padding: 10em 5em;
+    h5 {
+      color: #30333d;
+      font-size: 1.5em;
+      font-weight: 200;
+      margin: 1em 0;
+    }
+    h6 {
+      color: #30333d;
+      font-size: 0.6em;
+      font-weight: 800;
+      margin: 1em 0;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+  }
+  .contacts-right {
+    padding: 15em 5em;
+    width: 50%;
+    background-color: #30333d;
+    color: #f8fafd;
+    .contacts-btn {
+      font-size: 0.8em;
+      max-width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.3em 0.2em;
+      border-radius: 2em;
+      border: #f8fafd 1px solid;
+      color: #f8fafd;
+      
+    }
+  }
+}
