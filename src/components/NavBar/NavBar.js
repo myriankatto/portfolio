@@ -45,7 +45,7 @@ class NavBar extends Component {
 
         {/* Right */}
         <div className="right">
-          <h2>Contacts</h2>
+          <h2>CV</h2>
         </div>
 
         {/* Top */}
