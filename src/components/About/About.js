@@ -1,14 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './style.scss';
 
 import about from './../../images/about-img.png';
 
+const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
 
-class About extends Component {
-  render() {
-    return (
-      <div className="about" id="About">
-        <div className="about-text">
+  return (
+    <div className="about" id="About">
+      <div className="about-text">
+        <div data-aos="fade-down">
+      
           <h3>About</h3>
           <h1>Myrian Katto</h1>
           <p>
@@ -20,10 +26,12 @@ class About extends Component {
             innovative solutions for the world.{' '}
           </p>
         </div>
-        <div className="about-image"><img src={about} alt="Myrian Katto"/></div>
       </div>
-    );
-  }
-}
+      <div className="about-image" data-aos="fade">
+        <img src={about} alt="Myrian Katto" />
+      </div>
+    </div>
+  );
+};
 
 export default About;

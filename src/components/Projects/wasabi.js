@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './style.scss';
 import { Link } from 'react-router-dom';
 import wasabi from './../../images/img-wasabi.png';
@@ -13,11 +15,13 @@ import javascript from './../../images/javascript.svg';
 import html from './../../images/html-5.svg';
 import css from './../../images/css3.svg';
 
-
-function Wasabi() {
+const Wasabi = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="project">
-      <div className="project-content">
+      <div className="project-content" data-aos="fade-down">
         <h1>Don't Feed Wasabi</h1>
         <p>
           2D game developed in Javascript. It was developed as a tribute to the most wonderful cat
@@ -40,18 +44,26 @@ function Wasabi() {
         <div className="content-icons">
           <span>Developed with</span>
           <div className="icons">
-          <span tooltip="Javascript" flow="down"> <img src={javascript} style={{ width: '2.4em' }} alt="javascript" /></span>
-          <span tooltip="HTML 5" flow="down"> <img src={html} style={{ width: '2.2em' }} alt="html5" /></span>
-          <span tooltip="CSS 3" flow="down"> <img src={css} style={{ width: '2.2em' }} alt="css3" /></span>
-       
+            <span tooltip="Javascript" flow="down">
+              {' '}
+              <img src={javascript} style={{ width: '2.4em' }} alt="javascript" />
+            </span>
+            <span tooltip="HTML 5" flow="down">
+              {' '}
+              <img src={html} style={{ width: '2.2em' }} alt="html5" />
+            </span>
+            <span tooltip="CSS 3" flow="down">
+              {' '}
+              <img src={css} style={{ width: '2.2em' }} alt="css3" />
+            </span>
           </div>
         </div>
       </div>
-      <div className="project-image">
+      <div className="project-image" data-aos="fade-left">
         <img src={wasabi} alt="Myrian Katto" />
       </div>
     </div>
   );
-}
+};
 
 export default Wasabi;

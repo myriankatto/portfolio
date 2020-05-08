@@ -1,4 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 import './style.scss';
 import { Link } from 'react-router-dom';
 import tasksy from './../../images/img-tasksy.png';
@@ -16,10 +19,14 @@ import node from './../../images/nodejs-icon.svg'
 import sass from './../../images/sass-1.svg'
 import api from './../../images/api.svg'
 
-function Tasksy() {
+const Tasksy = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="project" id="Projects">
-      <div className="project-content">
+      <div className="project-content" data-aos="fade-down">
         <h1>Tasksy</h1>
         <p>
           It is an app that helps people to improve their work environment! It was developed to
@@ -52,7 +59,7 @@ function Tasksy() {
           </div>
         </div>
       </div>
-      <div className="project-image">
+      <div className="project-image" data-aos="fade-left">
         <img src={tasksy} alt="Myrian Katto" />
       </div>
     </div>

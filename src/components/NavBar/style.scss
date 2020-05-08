@@ -97,3 +97,14 @@
     cursor: pointer;
   }
 }
+
+@media only screen and (max-width: 769px) {
+  .margin {
+    margin: 0;
+    .left,
+    .right, .top, .bottom {
+      display: none;
+    
+    }
+  }
+}

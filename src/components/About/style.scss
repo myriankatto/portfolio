@@ -38,3 +38,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 769px) {
+  .about {
+    margin: 0;
+    padding: 0 2em;
+    background-color: #f8fafd;
+
+    .about-text {
+      width: 100%;
+      padding: 2em 0;
+
+    }
+
+    .about-image {
+      display: none;
+    }
+  }
+}

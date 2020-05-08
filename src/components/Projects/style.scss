@@ -3,7 +3,7 @@
   font-family: 'Roboto Slab';
   margin: 0 40px;
   align-items: center;
-  height:100vh;
+  height: 100vh;
 }
 
 .project-grey-bg {
@@ -16,7 +16,7 @@
 
 .project-content {
   width: 40%;
-  padding: 14em 5em;
+  padding: 10em 5em;
   h1 {
     font-size: 2em;
     color: #30333d;
@@ -96,9 +96,13 @@
     max-width: 90%;
     height: auto;
   }
+  .img-2 {
+    max-width: 80%;
+    height: auto;
+    padding-left: 5em;
+    padding-top: 2em;
+  }
 }
-
-
 
 /* START TOOLTIP STYLES */
 [tooltip] {
@@ -124,13 +128,13 @@
 }
 [tooltip]::after {
   content: attr(tooltip); /* magic! */
-  
+
   /* most of the rest of this is opinion */
   font-family: 'Roboto Slab';
   font-weight: 600;
   font-size: 1.3em;
-    text-align: center;
-  
+  text-align: center;
+
   /* 
     Let the content set the size of the tooltips 
     but this will also keep them from being obnoxious
@@ -160,18 +164,17 @@
 }
 
 /* FLOW: DOWN */
-[tooltip][flow^="down"]::before {
+[tooltip][flow^='down']::before {
   top: 10%;
 }
-[tooltip][flow^="down"]::after {
+[tooltip][flow^='down']::after {
   top: calc(100% + 5px);
 }
-[tooltip][flow^="down"]::before,
-[tooltip][flow^="down"]::after {
+[tooltip][flow^='down']::before,
+[tooltip][flow^='down']::after {
   left: 30%;
-  transform: translate(-50%, .5em);
+  transform: translate(-50%, 0.5em);
 }
-
 
 /* KEYFRAMES */
 @keyframes tooltips-vert {
@@ -181,12 +184,43 @@
   }
 }
 
-
-/* FX All The Things */ 
+/* FX All The Things */
 [tooltip]:not([flow]):hover::before,
 [tooltip]:not([flow]):hover::after,
-[tooltip][flow^="down"]:hover::before,
-[tooltip][flow^="down"]:hover::after {
+[tooltip][flow^='down']:hover::before,
+[tooltip][flow^='down']:hover::after {
   animation: tooltips-vert 300ms ease-in forwards;
 }
 
+@media only screen and (max-width: 769px) {
+  .project {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .project-grey-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebf0f8;
+  }
+
+  .project-content {
+    width: 90%;
+    padding: 1em;
+
+}
+
+
+.project-image {
+  img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+
+  }
+}
+
+
+}

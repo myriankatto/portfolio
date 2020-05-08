@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './style.scss';
 import { Link } from 'react-router-dom';
 import books from './../../images/img-books.png';
@@ -15,13 +17,17 @@ import node from './../../images/nodejs-icon.svg';
 import handlebars from './../../images/handlebars-1.svg';
 import bootstrap from './../../images/bootstrap-4.svg';
 
-function BooksandTea() {
+const BooksandTea = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="project-grey-bg">
-      <div className="project-image">
-        <img style={{ paddingLeft: '4.5em' }} src={books} alt="Myrian Katto" />
+      <div className="project-image" data-aos="fade-right">
+        <img className="img-2" src={books} alt="Myrian Katto" />
       </div>
-      <div className="project-content">
+      <div className="project-content" data-aos="fade-down">
         <h1>Books and Tea</h1>
         <p>
           Books and Tea is a platform for book lovers. Users can search for books, add and remove

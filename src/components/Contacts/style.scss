@@ -6,7 +6,6 @@
   background-color: #f8fafd;
 
   .contacts-left {
-
     width: 50%;
     padding: 10em 5em;
     h5 {
@@ -31,7 +30,7 @@
     color: #f8fafd;
     .contacts-btn {
       font-size: 0.8em;
-      max-width: 40%;
+      max-width: 60%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -39,7 +38,33 @@
       border-radius: 2em;
       border: #f8fafd 1px solid;
       color: #f8fafd;
-      
+    }
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .contacts-left {
+      width: 100%;
+      padding: 4em 0;
+    }
+    .contacts-right {
+      width: 100%;
+      padding: 4em;
+
+      .contacts-btn {
+        font-size: 0.8em;
+        max-width: 80%;
+        display: flex;
+        padding: 0.3em 0.2em;
+        border-radius: 2em;
+        border: #f8fafd 1px solid;
+        color: #f8fafd;
+      }
     }
   }
 }

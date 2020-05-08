@@ -1,6 +1,6 @@
 //header
 .header-container {
-  background-image: url('./../../images/bg.png');
+  background-image: url('./../../images/Background.png');
   background-repeat: no-repeat;
   background-position: center;
   z-index: -2;
@@ -26,11 +26,46 @@
       color: #ffffff;
     }
     strong {
-      color: #51fcf3;
+      color: #FFD84F;
     }
   }
   img {
     position: absolute;
     bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .header-container {
+    background-image: url('./../../images/Background-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    .header-text {
+      text-align: center;
+      width: 60%;
+
+      margin: 0 auto;
+      padding: 90px 0 500px 0;
+      text-shadow: 0 2px 30px rgba(72, 65, 154, 0.25);
+      font-family: 'Roboto Slab';
+      font-size: 2.5rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      span {
+        color: #ffffff;
+      }
+      strong {
+        color: #FFD84F;
+      }
+    }
+    img {
+     display: none;
+    }
   }
 }
