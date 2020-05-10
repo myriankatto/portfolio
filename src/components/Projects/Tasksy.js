@@ -50,17 +50,17 @@ const Tasksy = () => {
         <div className="content-icons">
           <span>Developed with</span>
           <div className="icons">
-          <span tooltip="ReactJs" flow="down"><img src={react} style={{width:'2.4em'}} alt="React.js" /></span>
-          <span tooltip="NodeJs" flow="down"><img src={node} style={{width:'2em'}} alt="Node.js" /></span>
-          <span tooltip="Mongo DB" flow="down"><img src={mongodb} style={{width:'8.5em'}} alt="Mongodb" /></span>
-          <span tooltip="Express.js" flow="down"><img src={express} style={{width:'2.2em'}} alt="Express.js" /></span>
-          <span tooltip="Rest API" flow="down"><img src={api} style={{width:'2.2em'}} alt="Rest API" /></span>
-          <span tooltip="Sass" flow="down"><img src={sass} style={{width:'2.2em'}} alt="Sass" /></span>
+          <span tooltip="ReactJs" flow="down"><img src={react} style={{width:'3.4em'}} alt="React.js" /></span>
+          <span tooltip="NodeJs" flow="down"><img src={node} style={{width:'3em'}} alt="Node.js" /></span>
+          <span tooltip="Mongo DB" flow="down"><img src={mongodb} style={{width:'9.5em'}} alt="Mongodb" /></span>
+          <span tooltip="Express.js" flow="down"><img src={express} style={{width:'3em'}} alt="Express.js" /></span>
+          <span tooltip="Rest API" flow="down"><img src={api} style={{width:'3em'}} alt="Rest API" /></span>
+          <span tooltip="Sass" flow="down"><img src={sass} style={{width:'3em'}} alt="Sass" /></span>
           </div>
         </div>
       </div>
-      <div className="project-image" data-aos="fade-left">
-        <img src={tasksy} alt="Myrian Katto" />
+      <div className="project-image" data-aos="fade-up">
+        <img className="img-1"  src={tasksy} alt="Myrian Katto" />
       </div>
     </div>
   );

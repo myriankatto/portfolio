@@ -24,7 +24,7 @@ const BooksandTea = () => {
 
   return (
     <div className="project-grey-bg">
-      <div className="project-image" data-aos="fade-right">
+      <div className="project-image" data-aos="fade-up">
         <img className="img-2" src={books} alt="Myrian Katto" />
       </div>
       <div className="project-content" data-aos="fade-down">
@@ -49,11 +49,11 @@ const BooksandTea = () => {
         <div className="content-icons">
           <span>Developed with</span>
           <div className="icons">
-          <span tooltip="NodeJs" flow="down"><img src={node} style={{ width: '2em' }} alt="Node.js"/></span>
-          <span tooltip="Mongo DB" flow="down"><img src={mongodb} style={{ width: '8.5em' }} alt="Mongodb" /></span>
-          <span tooltip="ExpressJS" flow="down"><img className="express" src={express} style={{ width: '2.2em' }} alt="Express.js" /></span>
-          <span tooltip="Handlebars" flow="down"><img className="handlebars" src={handlebars} style={{ width: '4em' }} alt="Handlebars" /></span>
-        <span tooltip="Bootstrap" flow="down"><img className="bootstrap" src={bootstrap} style={{ width: '2em' }} alt="Bootstrap" /></span>
+          <span tooltip="NodeJs" flow="down"><img src={node} style={{ width: '3em' }} alt="Node.js"/></span>
+          <span tooltip="Mongo DB" flow="down"><img src={mongodb} style={{ width: '9.5em' }} alt="Mongodb" /></span>
+          <span tooltip="ExpressJS" flow="down"><img className="express" src={express} style={{ width: '3em' }} alt="Express.js" /></span>
+          <span tooltip="Handlebars" flow="down"><img className="handlebars" src={handlebars} style={{ width: '5em' }} alt="Handlebars" /></span>
+        <span tooltip="Bootstrap" flow="down"><img className="bootstrap" src={bootstrap} style={{ width: '2.8em' }} alt="Bootstrap" /></span>
           </div>
         </div>
       </div>

@@ -1,0 +1,75 @@
+.aboutme {
+  display: flex;
+  margin: 40px;
+  align-items: center;
+  font-family: 'Roboto Slab';
+  background-color: #f8fafd;
+
+  .about-left {
+    width: 50%;
+    padding: 8em;
+    h3 {
+      font-size: 0.75em;
+      font-weight: 700;
+      color: #fb6f6f;
+      text-transform: uppercase;
+      letter-spacing: 1em;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2em;
+      color: #30333d;
+      margin: 0;
+    }
+    p {
+      font-size: 0.9em;
+      font-weight: 300;
+      color: #30333d;
+      line-height: 1.5em;
+    }
+  }
+  .contacts-right {
+    padding: 15em 5em;
+    width: 50%;
+    background-color: #30333d;
+    color: #f8fafd;
+    .contacts-btn {
+      font-size: 0.8em;
+      max-width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.3em 0.2em;
+      border-radius: 2em;
+      border: #f8fafd 1px solid;
+      color: #f8fafd;
+    }
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .contacts-left {
+      width: 100%;
+      padding: 4em 0;
+    }
+    .contacts-right {
+      width: 100%;
+      padding: 4em;
+
+      .contacts-btn {
+        font-size: 0.8em;
+        max-width: 80%;
+        display: flex;
+        padding: 0.3em 0.2em;
+        border-radius: 2em;
+        border: #f8fafd 1px solid;
+        color: #f8fafd;
+      }
+    }
+  }
+}

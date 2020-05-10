@@ -11,11 +11,12 @@
   font-family: 'Roboto Slab';
   margin: 0 40px;
   align-items: center;
+  height: 100vh;
   background-color: #ebf0f8;
 }
 
 .project-content {
-  width: 40%;
+  flex: 1;
   padding: 10em 5em;
   h1 {
     font-size: 2em;
@@ -92,15 +93,20 @@
 }
 
 .project-image {
-  img {
-    max-width: 90%;
+  flex: 1;
+  .img-1 {
+    max-width: 60%;
     height: auto;
   }
   .img-2 {
+    max-width: 100%;
+    height: auto;
+    padding-left: 8em;
+    padding-top: 2em;
+  }
+  .img-3 {
     max-width: 80%;
     height: auto;
-    padding-left: 5em;
-    padding-top: 2em;
   }
 }
 
@@ -209,18 +215,13 @@
   .project-content {
     width: 90%;
     padding: 1em;
-
-}
-
-
-.project-image {
-  img {
-    max-width: 80%;
-    height: auto;
-    margin: 0 auto;
-
   }
-}
 
-
+  .project-image {
+    img {
+      max-width: 80%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
 }

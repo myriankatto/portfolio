@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import Menu from './NavBarMenu';
 
 import github from './../../images/ic-navbar-github.svg';
 import linkedin from './../../images/ic-navbar-linkedin.svg';
@@ -45,7 +44,7 @@ class NavBar extends Component {
 
         {/* Right */}
         <div className="right">
-          <h2>CV</h2>
+          <h2>CONTACTS</h2>
         </div>
 
         {/* Top */}

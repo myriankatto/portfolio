@@ -46,21 +46,21 @@ const Wasabi = () => {
           <div className="icons">
             <span tooltip="Javascript" flow="down">
               {' '}
-              <img src={javascript} style={{ width: '2.4em' }} alt="javascript" />
+              <img src={javascript} style={{ width: '3.2em' }} alt="javascript" />
             </span>
             <span tooltip="HTML 5" flow="down">
               {' '}
-              <img src={html} style={{ width: '2.2em' }} alt="html5" />
+              <img src={html} style={{ width: '3em' }} alt="html5" />
             </span>
             <span tooltip="CSS 3" flow="down">
               {' '}
-              <img src={css} style={{ width: '2.2em' }} alt="css3" />
+              <img src={css} style={{ width: '3em' }} alt="css3" />
             </span>
           </div>
         </div>
       </div>
-      <div className="project-image" data-aos="fade-left">
-        <img src={wasabi} alt="Myrian Katto" />
+      <div className="project-image" data-aos="fade-up">
+        <img className="img-3" src={wasabi} alt="Myrian Katto" />
       </div>
     </div>
   );

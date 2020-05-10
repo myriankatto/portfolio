@@ -2,6 +2,7 @@ import React from 'react';
 import TypeIt from 'typeit-react';
 import './style.scss';
 import scroll from './../../images/ic-scroll.svg';
+import { Link } from 'react-scroll';
 
 export default function HeaderText() {
   return (
@@ -28,7 +29,22 @@ export default function HeaderText() {
           return instance;
         }}
       />
-      <img src={scroll} alt="scroll" />
+      {/* <img src={scroll} alt="scroll" /> */}
+      <div className="mouse-container">
+      <Link
+        className="link-item mouse-scroll"
+        activeClass="active"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-10}
+        duration={500}
+      >
+        <span className="mouse">
+          <span className="mouse-movement"></span>
+        </span>
+      </Link>
+      </div>
     </div>
   );
 }
