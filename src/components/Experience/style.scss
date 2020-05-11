@@ -1,0 +1,48 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0 200px 0;
+    .experience-title {
+    text-align: center;
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1em;
+      margin-bottom: 3em;
+      font-weight: 200;
+    }
+  }
+  .experience-timeline {
+    width: 65%;
+    height: 90px;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px;
+  }
+  .text-center {
+    display: inline-block;
+    margin-top: 2em;
+    span {
+      font-size: 1em;
+      font-weight: 400;
+    }
+  }
+  a{
+    color:#30333d;
+  }
+  a:visited{
+    color:#30333d;
+  }
+  a:hover {
+    color: #fb6f6f;
+  }
+
+  img {
+    width: 30px;
+    height: auto;
+  }
+}
+

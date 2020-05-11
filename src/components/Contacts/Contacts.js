@@ -18,6 +18,8 @@ const Contacts = () => {
         <h5>myriankatto@gmail.com</h5>
         <h5>+55 11 998025678</h5>
         <h6>Myrian Katto @ 2020</h6>
+       
+
       </div>
       <div className="contacts-right">
         <h2 data-aos="fade-down">Let's have a coffee?</h2>
