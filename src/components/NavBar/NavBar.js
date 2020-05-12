@@ -20,31 +20,28 @@ class NavBar extends Component {
         {/* Left */}
         <div className="left">
           <div className="icons">
-            <Link
-              to="https://github.com/myriankatto"
+            <a href="https://github.com/myriankatto"
               className="icons-svg"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={github} alt="github" />
-            </Link>
+            </a>
 
-            <Link
-              to="https://www.linkedin.com/in/myrian-katto-2792a921/"
+            <a href="https://www.linkedin.com/in/myrian-katto-2792a921/"
               className="icons-svg"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={linkedin} alt="linkedin" />
-            </Link>
-            <Link
-              to="https://www.instagram.com/myrionn"
+            </a>
+            <a href="https://www.instagram.com/myrionn"
               className="icons-svg"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={instagram} alt="instagram" />
-            </Link>
+            </a>
           </div>
         </div>
 

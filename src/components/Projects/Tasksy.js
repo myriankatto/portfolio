@@ -35,17 +35,17 @@ const Tasksy = () => {
           everyone will be rewarded for the great job done! This is my final project at Ironhack Bootcamp and it was developed with React.Js.
         </p>
         <div className="content-btn">
-          <Link to="https://github.com/myriankatto/ironhack-project3" target="_blank">
+          <a href="https://github.com/myriankatto/ironhack-project3" target="_blank" rel="noopener noreferrer">
             <div className="github-btn">
               <img src={github} alt="github" /> <span>Github</span>
             </div>
-          </Link>
-          <Link to="https://tasksyapp.herokuapp.com/" target="_blank">
+          </a>
+          <a href="https://tasksyapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <div className="project-btn">
               <span>See Project</span>
               <Icon icon={arrows_slim_right} size={35} />
             </div>
-          </Link>
+          </a>
         </div>
         <div className="content-icons">
           <span>Developed with</span>

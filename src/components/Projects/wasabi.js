@@ -29,17 +29,17 @@ const Wasabi = () => {
           game.
         </p>
         <div className="content-btn">
-          <Link to="https://github.com/myriankatto/project-1" target="_blank">
+          <a href="https://github.com/myriankatto/project-1" target="_blank" rel="noopener noreferrer">
             <div className="github-btn">
               <img src={github} alt="github" /> <span>Github</span>
             </div>
-          </Link>
-          <Link to="https://github.com/myriankatto/project-1" target="_blank">
+          </a>
+          <a href="https://github.com/myriankatto/project-1" target="_blank" rel="noopener noreferrer">
             <div className="project-btn">
               <span>See Project</span>
               <Icon icon={arrows_slim_right} size={35} />
             </div>
-          </Link>
+          </a>
         </div>
         <div className="content-icons">
           <span>Developed with</span>

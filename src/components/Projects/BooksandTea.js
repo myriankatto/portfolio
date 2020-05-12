@@ -34,17 +34,17 @@ const BooksandTea = () => {
           them to different bookshelves, rate them and leave a review. It was developed with Google Books API.
         </p>
         <div className="content-btn">
-          <Link to="https://github.com/myriankatto/project2" target="_blank">
+          <a href="https://github.com/myriankatto/project2" target="_blank" rel="noopener noreferrer"> 
             <div className="github-btn">
               <img src={github} alt="github" /> <span>Github</span>
             </div>
-          </Link>
-          <Link to="https://booksandtea.herokuapp.com/" target="_blank">
+          </a>
+          <a href="https://booksandtea.herokuapp.com/" target="_blank" rel="noopener noreferrer">
             <div className="project-btn">
               <span>See Project</span>
               <Icon icon={arrows_slim_right} size={35} />
             </div>
-          </Link>
+          </a>
         </div>
         <div className="content-icons">
           <span>Developed with</span>

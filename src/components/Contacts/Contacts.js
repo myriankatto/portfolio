@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './style.scss';
@@ -26,14 +25,13 @@ const Contacts = () => {
       </div>
       <div className="contacts-right">
         <h2 data-aos="fade-down">Let's have a coffee?</h2>
-        <Link to="/" target="_blank">
+
+        <a href="https://calendly.com/myriankatto" target="_blank" rel="noopener noreferrer">
           <div className="contacts-btn">
-            <a href="calendly.com/myriankatto" target="_blank" rel="noopener noreferrer">
-              <span>Schedule here </span>
-            </a>
+            <span>Schedule here </span>
             <Icon style={{ marginLeft: '1em' }} icon={arrows_slim_right} size={35} />
           </div>
-        </Link>
+        </a>
       </div>
     </div>
   );
