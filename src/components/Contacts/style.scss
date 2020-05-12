@@ -22,7 +22,6 @@
       text-transform: uppercase;
       letter-spacing: 0.1em;
     }
-
   }
   .contacts-right {
     padding: 17em 5em;
@@ -31,7 +30,7 @@
     color: #f8fafd;
     .contacts-btn {
       font-size: 1em;
-      max-width:250px;
+      max-width: 250px;
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -53,19 +52,26 @@
     .contacts-left {
       width: 100%;
       padding: 4em 6em;
- 
     }
     .contacts-right {
       width: 100%;
       padding: 4em 6em;
 
       .contacts-btn {
-
         max-width: 250px;
         display: flex;
         padding: 0.3em 0.2em;
-   
       }
     }
   }
+
 }
+    a:visited {
+      color: white;}
+
+
+
+    a:hover {
+      color: #cfcfcf;
+   
+    }

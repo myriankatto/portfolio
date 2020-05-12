@@ -28,7 +28,9 @@ const Contacts = () => {
         <h2 data-aos="fade-down">Let's have a coffee?</h2>
         <Link to="/" target="_blank">
           <div className="contacts-btn">
-            <span>Schedule here </span>
+            <a href="calendly.com/myriankatto" target="_blank" rel="noopener noreferrer">
+              <span>Schedule here </span>
+            </a>
             <Icon style={{ marginLeft: '1em' }} icon={arrows_slim_right} size={35} />
           </div>
         </Link>

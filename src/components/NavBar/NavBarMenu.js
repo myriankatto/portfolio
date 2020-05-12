@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import { animated, useTransition, useSpring, useChain, config } from 'react-spring';
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 
 import './style.scss';
 
@@ -81,25 +81,27 @@ function NavBarMenu() {
   useChain(showMenu ? [navRef, liRef] : [liRef, navRef], [0, showMenu ? 0.5 : 0.6]);
 
   return (
-    <MenuContainer className="menu-container"  >
+    <MenuContainer className="menu-container">
       <Nav className="menu" style={springProps} onClick={toggleMenu}>
         <ul>
           {liTransitions.map(({ item, key, props }) => (
             <Li key={key} style={props}>
-               <Link
-               onClick={toggleMenu}
-    className="link-item"
-    activeClass="active"
-    to={item.name}
-    spy={true}
-    smooth={true}
-    offset={-10}
-    duration= {500}
-    >{item.name}</Link>
+              <Link
+                onClick={toggleMenu}
+                className="link-item"
+                activeClass="active"
+                to={item.name}
+                spy={true}
+                smooth="easeInOutQuint"
+                offset={-10}
+                duration={500}
+              >
+                {item.name}
+              </Link>
             </Li>
           ))}
         </ul>
-  {/* <Link
+        {/* <Link
     className="link-item"
     activeClass="active"
     to="about"
@@ -149,9 +151,8 @@ function NavBarMenu() {
     duration= {500}
     >Contacts</Link>
    */}
-  
-  </Nav>
-  </MenuContainer>
+      </Nav>
+    </MenuContainer>
   );
 }
 
