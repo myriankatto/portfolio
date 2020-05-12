@@ -18,12 +18,12 @@ const About = () => {
           <h3>About</h3>
           <h1>Myrian Katto</h1>
           <p>
-            After working with graphic design for about ten years, I decided to change my career to
+            I'm a Japanese-Brazilian Web Developer based in Florianópolis, Brazil. After working with graphic design for almost 8 years, I've decided to switch my career to
             something more challenging. I just graduated from an intensive Full Stack Web
             Development bootcamp and now I'm looking forward to putting all this new knowledge in
             practice combined with my design skills. I’m looking for an opportunity in the tech
             industry where I can continue learning, collaborating, creating and developing new great
-            innovative solutions for the world.{' '}
+            innovative solutions for the world.
           </p>
         </div>
       </div>

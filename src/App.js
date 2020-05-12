@@ -8,10 +8,11 @@ import { BrowserRouter } from 'react-router-dom';
 import Tasksy from './components/Projects/Tasksy';
 import BooksandTea from './components/Projects/BooksandTea';
 import Wasabi from './components/Projects/wasabi';
-import Contacts from './components/Contacts/Contacts';
+import Technologies from './components/Technologies/Technologies';
 import Experience from './components/Experience/Experience';
+import Contacts from './components/Contacts/Contacts';
 
-import './App.scss'
+import './App.scss';
 
 export class App extends Component {
   constructor() {
@@ -38,7 +39,8 @@ export class App extends Component {
           <About />
           <Tasksy />
           <BooksandTea />
-          <Wasabi /> 
+          <Wasabi />
+          <Technologies />
           <Experience />
           <Contacts />
         </div>

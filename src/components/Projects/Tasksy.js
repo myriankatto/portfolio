@@ -29,10 +29,10 @@ const Tasksy = () => {
       <div className="project-content" data-aos="fade-down">
         <h1>Tasksy</h1>
         <p>
-          It is an app that helps people to improve their work environment! It was developed to
+          It is a MERN Stack app developed to help improving work environment! It was created to
           assist teams to list all the tasks that needs to be done at their workspaces, so everyone
           can collaborate to keep it clean and nice. Tasksy uses the gamification methodology and
-          everyone will be rewarded for the great job done!
+          everyone will be rewarded for the great job done! This is my final project at Ironhack Bootcamp and it was developed with React.Js.
         </p>
         <div className="content-btn">
           <Link to="https://github.com/myriankatto/ironhack-project3" target="_blank">
@@ -55,7 +55,7 @@ const Tasksy = () => {
           <span tooltip="Mongo DB" flow="down"><img src={mongodb} style={{width:'9.5em'}} alt="Mongodb" /></span>
           <span tooltip="Express.js" flow="down"><img src={express} style={{width:'3em'}} alt="Express.js" /></span>
           <span tooltip="Rest API" flow="down"><img src={api} style={{width:'3em'}} alt="Rest API" /></span>
-          <span tooltip="Sass" flow="down"><img src={sass} style={{width:'3em'}} alt="Sass" /></span>
+          <span tooltip="Sass" flow="down"><img src={sass} style={{width:'3.2em'}} alt="Sass" /></span>
           </div>
         </div>
       </div>

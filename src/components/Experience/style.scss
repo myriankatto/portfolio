@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 200px 0 200px 0;
-    .experience-title {
+  padding: 200px 0;
+  .experience-title {
     text-align: center;
     h1 {
       font-size: 2em;
@@ -30,11 +30,11 @@
       font-weight: 400;
     }
   }
-  a{
-    color:#30333d;
+  a {
+    color: #30333d;
   }
-  a:visited{
-    color:#30333d;
+  a:visited {
+    color: #30333d;
   }
   a:hover {
     color: #fb6f6f;
@@ -46,3 +46,8 @@
   }
 }
 
+@media only screen and (max-width: 769px) {
+  .experience {
+    padding: 80px 0;
+  }
+}

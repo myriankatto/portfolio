@@ -46,7 +46,7 @@ const Li = styled(animated.li)`
 const menuItems = [
   { name: 'About', link: '/' },
   { name: 'Projects', link: '/projects/' },
-  { name: 'Skills', link: '/skills/' },
+  { name: 'Tech Skills', link: '/techskills/' },
   { name: 'Experience', link: '/experience/' },
   { name: 'Contacts', link: '/contacts/' },
 ];

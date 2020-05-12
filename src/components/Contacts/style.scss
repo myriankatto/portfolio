@@ -1,6 +1,6 @@
 .contacts {
   display: flex;
-  margin: 40px;
+  margin: 0 40px;
   align-items: center;
   font-family: 'Roboto Slab';
   background-color: #f8fafd;
@@ -22,18 +22,19 @@
       text-transform: uppercase;
       letter-spacing: 0.1em;
     }
+
   }
   .contacts-right {
-    padding: 15em 5em;
+    padding: 17em 5em;
     width: 50%;
     background-color: #30333d;
     color: #f8fafd;
     .contacts-btn {
-      font-size: 0.8em;
-      max-width: 60%;
+      font-size: 1em;
+      max-width:250px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
       padding: 0.3em 0.2em;
       border-radius: 2em;
       border: #f8fafd 1px solid;
@@ -48,22 +49,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
     .contacts-left {
       width: 100%;
-      padding: 4em 0;
+      padding: 4em 6em;
+ 
     }
     .contacts-right {
       width: 100%;
-      padding: 4em;
+      padding: 4em 6em;
 
       .contacts-btn {
-        font-size: 0.8em;
-        max-width: 80%;
+
+        max-width: 250px;
         display: flex;
         padding: 0.3em 0.2em;
-        border-radius: 2em;
-        border: #f8fafd 1px solid;
-        color: #f8fafd;
+   
       }
     }
   }

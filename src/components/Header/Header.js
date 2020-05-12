@@ -3,13 +3,10 @@ import './style.scss';
 
 import HeaderText from './HeaderText';
 
-
 function Header() {
   return (
     <div className="header-container">
       <HeaderText />
-
-  
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 import github from './../../images/ic-navbar-github.svg';
+import instagram from './../../images/ic-navbar-instagram.svg';
 import linkedin from './../../images/ic-navbar-linkedin.svg';
 //Icons
 import { Icon } from 'react-icons-kit';
@@ -39,6 +40,14 @@ class NavBar extends Component {
             >
               <img src={linkedin} alt="linkedin" />
             </Link>
+            <Link
+              to="https://www.instagram.com/myrionn"
+              className="icons-svg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={instagram} alt="instagram" />
+            </Link>
           </div>
         </div>
 
@@ -49,7 +58,7 @@ class NavBar extends Component {
 
         {/* Top */}
         <div className="top">
-          <div style={{ color: '#9a9b9e' }}>
+          <div className="language" style={{ color: '#9a9b9e' }}>
             <Icon icon={globe} size={15} /> <span>PT</span>
           </div>
           <h1>Myrian Katto</h1>

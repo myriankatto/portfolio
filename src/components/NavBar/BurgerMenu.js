@@ -6,7 +6,7 @@ class BurgerMenu extends Component {
 
   render() {
     return (
-      <div style={{ cursor: 'pointer', marginBottom:'20px' }}>
+      <div style={{ cursor: 'pointer', marginBottom:'20px', marginRight:'-10px' }}>
         <Burger
           onClick={this.props.onClick}
           active={this.props.menuActive}
