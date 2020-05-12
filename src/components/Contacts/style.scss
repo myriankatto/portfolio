@@ -42,6 +42,16 @@
   }
 }
 
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #cfcfcf;
+}
+
 @media only screen and (max-width: 769px) {
   .contacts {
     display: flex;
@@ -64,14 +74,4 @@
       }
     }
   }
-
 }
-    a:visited {
-      color: white;}
-
-
-
-    a:hover {
-      color: #cfcfcf;
-   
-    }
