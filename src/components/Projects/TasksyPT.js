@@ -24,7 +24,7 @@ const Tasksy = () => {
   }, []);
 
   return (
-    <div className="project" id="Projects">
+    <div className="project" id="Projetos">
       <div className="project-content" data-aos="fade-down">
         <h1>Tasksy</h1>
         <p>
