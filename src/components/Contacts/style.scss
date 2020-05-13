@@ -25,6 +25,9 @@
       text-transform: uppercase;
       letter-spacing: 0.1em;
     }
+    .icons {
+      display: none;
+    }
   }
   .contacts-right {
     padding: 17em 5em;
@@ -64,6 +67,14 @@
       }
       h6 {
         font-size: 2.5vw;
+        padding-top: 1em;
+      }
+      .icons {
+        display: inline;
+        img {
+          padding-right: 0.5em;
+          width: 2em;
+        }
       }
     }
     .contacts-right {
