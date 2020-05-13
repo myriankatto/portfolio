@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './style.scss';
-import { Link } from 'react-router-dom';
 import books from './../../images/img-books.png';
 import github from './../../images/ic-navbar-github.svg';
 

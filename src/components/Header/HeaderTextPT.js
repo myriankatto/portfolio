@@ -1,7 +1,6 @@
 import React from 'react';
 import TypeIt from 'typeit-react';
 import './style.scss';
-import scroll from './../../images/ic-scroll.svg';
 import { Link } from 'react-scroll';
 
 export default function HeaderText() {

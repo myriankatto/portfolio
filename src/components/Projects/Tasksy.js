@@ -3,7 +3,6 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 import './style.scss';
-import { Link } from 'react-router-dom';
 import tasksy from './../../images/img-tasksy.png';
 import github from './../../images/ic-navbar-github.svg';
 
