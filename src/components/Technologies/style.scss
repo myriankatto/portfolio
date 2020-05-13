@@ -2,7 +2,6 @@
   font-family: 'Roboto Slab';
   margin: 0 40px;
   align-items: center;
-  height: 100vh;
   background-color: rgba(235, 239, 245, 0.459);
   padding: 5em 4em;
   .technologies-title {
@@ -64,8 +63,9 @@
 
 @media only screen and (max-width: 769px) {
   .technologies {
-    height: 1600px;
+
     margin: 0 auto;
+    padding: 2em 4em;
     .technologies-container {
       display: flex;
       flex-direction: column;
