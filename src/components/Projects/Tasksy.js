@@ -60,7 +60,7 @@ const Tasksy = () => {
         </div>
       </div>
       <div className="project-image" data-aos="fade-up">
-        <img className="img-1"  src={tasksy} alt="Myrian Katto" />
+       <img className="img-1"  src={tasksy} alt="Myrian Katto" />
       </div>
     </div>
   );

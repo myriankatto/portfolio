@@ -109,7 +109,7 @@ class Experience extends React.Component {
         <div className="text-center" data-aos="fade-up">
           {/* any arbitrary component can go here */}
           <span>
-            <strong>{curStatus}</strong> -{' '}
+            <strong>{curStatus}</strong><br />
             <a href={link} target="_blank" rel="noopener noreferrer">
               {prevStatus}
             </a>
