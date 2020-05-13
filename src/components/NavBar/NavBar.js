@@ -54,8 +54,8 @@ class NavBar extends Component {
 
         {/* Top */}
         <div className="top">
-          <div className="language" style={{ color: '#9a9b9e' }}>
-            <Icon icon={globe} size={15} /> <span>PT</span>
+          <div className="language" style={{ color: '#30333d' }}>
+            <Link to="/pt"><Icon icon={globe} size={12} /> <span>PT</span></Link>
           </div>
           <h1>
             <ScrollToTop />

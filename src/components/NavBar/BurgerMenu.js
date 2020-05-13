@@ -3,10 +3,9 @@ import React, { Component } from 'react';
 import Burger from 'react-css-burger';
 
 class BurgerMenu extends Component {
-
   render() {
     return (
-      <div style={{ cursor: 'pointer', marginBottom:'20px', marginRight:'-10px' }}>
+      <div style={{ cursor: 'pointer', marginBottom: '20px', marginRight: '-10px' }}>
         <Burger
           onClick={this.props.onClick}
           active={this.props.menuActive}

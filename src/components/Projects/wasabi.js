@@ -25,7 +25,7 @@ const Wasabi = () => {
         <h1>Don't Feed Wasabi</h1>
         <p>
           2D game developed in Javascript. It was developed as a tribute to the most wonderful cat
-          on earth. Avoid the salmons, so it doesn't get too fat, get all the hearts to win the
+          on earth. Avoid the salmons, so it doesn't get too fat and fall asleep, get all the hearts to win the
           game.
         </p>
         <div className="content-btn">

@@ -31,7 +31,7 @@
         display: block;
       }
       img:hover {
-        opacity: 0.9;
+        opacity: 0.8;
       }
     }
   }
@@ -64,9 +64,16 @@
     span {
       font-size: 0.7em;
       cursor: pointer;
+      color: #9a9b9e;
     }
     span:hover {
-      color: #30333d9a;
+      opacity: 0.8;
+    }
+    a {
+      color: #9a9b9e;
+    }
+    a:hover {
+      opacity: 0.8;
     }
     h1 {
       font-size: 1em;
@@ -117,9 +124,9 @@
       padding: 0 1em;
       position: fixed;
       box-shadow: 0 2px 2px -2px rgba(214, 214, 214, 0.815);
-      .language{
-        span{
-display: none;
+      .language {
+        span {
+          display: none;
         }
       }
     }

@@ -12,23 +12,23 @@ code {
 
 a {
   text-decoration: none !important;
-  color: white;
+
 }
 
 a:link {
   text-decoration: none !important;
-  color: white;
+
 }
 
 a:visited {
   text-decoration: none !important;
-  color: white;
+  
 }
 
 a:hover {
   text-decoration: none !important;
 
-  color: #cfcfcf;
+
 }
 
 a:active {

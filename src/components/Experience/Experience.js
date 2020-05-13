@@ -14,7 +14,7 @@ const EXAMPLE = [
     link: 'http://www.myriankatto.com',
   },
   {
-    name: 'Web Developemnt Bootcamp',
+    name: 'Web Developement Bootcamp',
     local: 'Ironhack Lisbon',
     link: 'https://www.ironhack.com/br/lisboa',
   },

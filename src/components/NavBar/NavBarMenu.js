@@ -32,7 +32,7 @@ const Li = styled(animated.li)`
   a {
     font-family: 'Roboto Slab';
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: #30333d;
     font-size: 50px;
     text-decoration: none;
@@ -51,7 +51,7 @@ const menuItems = [
   { name: 'Contacts', link: '/contacts/' },
 ];
 
-function NavBarMenu() {
+function NavBarMenu(props) {
   const [showMenu, setShowMenu] = useState(true);
 
   const toggleMenu = () => setShowMenu(!showMenu);
@@ -101,56 +101,6 @@ function NavBarMenu() {
             </Li>
           ))}
         </ul>
-        {/* <Link
-    className="link-item"
-    activeClass="active"
-    to="about"
-    spy={true}
-    smooth={true}
-    offset={0}
-    duration= {500}  
-    >About</Link>
-<br/>
-  <Link
-    className="link-item"
-    activeClass="active"
-    to="projects"
-    spy={true}
-    smooth={true}
-    offset={70}
-    duration= {500}
-    >Projects</Link>
-<br/>
-  <Link
-    className="link-item"
-    activeClass="active"
-    to="skills"
-    spy={true}
-    smooth={true}
-    offset={70}
-    duration= {500}
->Skills</Link>
-<br/>
- <Link
-    className="link-item"
-    activeClass="active"
-    to="experience"
-    spy={true}
-    smooth={true}
-    offset={70}
-    duration= {500}
->Experience</Link>
-<br/>
-  <Link
-    className="link-item"
-    activeClass="active"
-    to="contacts"
-    spy={true}
-    smooth={true}
-    offset={0}
-    duration= {500}
-    >Contacts</Link>
-   */}
       </Nav>
     </MenuContainer>
   );
