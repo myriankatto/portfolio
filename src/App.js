@@ -9,7 +9,7 @@ import NavBar from './components/NavBar/NavBar';
 import NavBarMenu from './components/NavBar/NavBarMenu';
 import Tasksy from './components/Projects/Tasksy';
 import BooksandTea from './components/Projects/BooksandTea';
-import Wasabi from './components/Projects/Wasabi';
+import Wasabi from './components/Projects/wasabi';
 import Technologies from './components/Technologies/Technologies';
 import Experience from './components/Experience/Experience';
 import Contacts from './components/Contacts/Contacts';
