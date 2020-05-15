@@ -10,8 +10,12 @@ button {
   color: #30333d;
   margin: 0 auto;
   padding-left: 30px;
+  background-color: transparent;
+  cursor: pointer;
   &:hover {
     color: #30333dc2;
+    transition: ease-in-out 0.5s;
+
   }
   &:focus {
     outline: none;
@@ -23,8 +27,12 @@ button {
   font-weight: 800;
   font-size: 1.2em;
   font-weight: 400;
+  background-color: transparent;
+  cursor: pointer;
   &:hover {
     color: #30333dc2;
+    transition: ease-in-out 0.5s;
+
   }
   &:focus {
     outline: none;

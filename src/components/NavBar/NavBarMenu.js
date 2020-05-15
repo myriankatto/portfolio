@@ -40,6 +40,7 @@ const Li = styled(animated.li)`
   }
   a:hover {
     color: #f35252;
+    transition: ease-in-out 0.5s;
   }
 `;
 

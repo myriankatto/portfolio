@@ -4,10 +4,10 @@ import 'aos/dist/aos.css';
 
 import './style.scss';
 import tasksy from './../../images/img-tasksy.png';
-import github from './../../images/ic-navbar-github.svg';
 
 import { Icon } from 'react-icons-kit';
 import { arrows_slim_right } from 'react-icons-kit/linea/arrows_slim_right';
+import {github} from 'react-icons-kit/icomoon/github'
 
 //Icons
 
@@ -42,7 +42,7 @@ const Tasksy = () => {
             rel="noopener noreferrer"
           >
             <div className="github-btn">
-              <img src={github} alt="github" /> <span>Github</span>
+            <Icon icon={github} size={20} /> <span>Github</span>
             </div>
           </a>
           <a href="https://tasksyapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">

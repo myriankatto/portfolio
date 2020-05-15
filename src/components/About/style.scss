@@ -47,12 +47,39 @@
 
     .about-text {
       width: 100%;
-      padding:0;
-
+      padding: 0;
     }
 
     .about-image {
       display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .about {
+    margin: 0 60px;
+    .about-text {
+      padding: 20em 8em;
+      h3 {
+        font-size: 1.2em;
+
+      }
+      h1 {
+        font-size: 2.5em;
+
+      }
+      p {
+        font-size: 1.2em;
+
+      }
+    }
+    .about-image {
+      width: 50%;
+      background-color: #30333d;
+      padding: 3em 8em 0 10em;
+      display: flex;
+
     }
   }
 }

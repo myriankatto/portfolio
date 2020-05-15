@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './style.scss';
 
-import about from './../../images/about-img.png';
+import about from './../../images/about-img-lg.png';
 
 const About = () => {
   useEffect(() => {

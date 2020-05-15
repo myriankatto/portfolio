@@ -3,7 +3,6 @@
   font-family: 'Roboto Slab';
   margin: 0 40px 0 70px;
   align-items: center;
-
 }
 
 .project-grey-bg {
@@ -34,21 +33,28 @@
     text-decoration: none;
     .github-btn {
       display: flex;
-      align-items: center;
+      align-items: baseline;
       justify-content: center;
       padding: 0.5em 1em;
       border-radius: 2em;
       border: #30333d 1px solid;
       margin-right: 1em;
+      color: #30333d;
+      &:hover {
+        transition: 0.5s ease-in-out;
+        background-color: #30333d;
+        color: white;
+      }
 
       span {
         text-decoration: none;
         font-family: 'Roboto Slab';
         font-weight: 600;
         font-size: 0.8em;
-        color: #30333d;
+
         padding-left: 0.5em;
       }
+
       img {
         width: 20px;
       }
@@ -62,6 +68,20 @@
       border: #30333d 1px solid;
       background-color: #30333d;
       color: white;
+      &:hover {
+        transition: 0.5s ease-in-out;
+        background-color: white;
+        color: #30333d;
+      }
+      a {
+        color: white;
+        &:visited {
+          color: #30333d;
+        }
+        &:hover {
+          color: #30333d;
+        }
+      }
       span {
         font-family: 'Roboto Slab';
         font-weight: 600;
@@ -228,7 +248,6 @@
       max-width: 80%;
       object-fit: scale-down;
       padding-right: 3em;
-  
     }
     .img-2 {
       max-width: 80%;
@@ -237,6 +256,110 @@
     }
     .img-3 {
       max-width: 85%;
+      object-fit: scale-down;
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .project {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .project-grey-bg {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  .project-content {
+    width: 1200px;
+    padding: 100px 100px;
+    flex: 1;
+    h1 {
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .content-btn {
+      margin-top: 2.5em;
+
+      .github-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5em 1em;
+        border-radius: 2em;
+        border: #30333d 1px solid;
+        margin-right: 1em;
+
+        span {
+          text-decoration: none;
+          font-family: 'Roboto Slab';
+          font-weight: 600;
+          font-size: 0.8em;
+          color: #30333d;
+          padding-left: 0.5em;
+        }
+        img {
+          width: 20px;
+        }
+      }
+      .project-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.1em 2em;
+        border-radius: 2em;
+        border: #30333d 1px solid;
+        background-color: #30333d;
+        color: white;
+        span {
+          font-family: 'Roboto Slab';
+          font-weight: 600;
+          font-size: 0.8em;
+          padding-right: 1.5em;
+        }
+      }
+    }
+    .content-icons {
+      margin-top: 1em;
+      span {
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        font-size: 0.5em;
+        font-weight: 600;
+        padding-right: 0.5em;
+      }
+      .icons {
+        display: flex;
+        margin-top: 0.6em;
+        align-items: baseline;
+        position: relative;
+        img {
+          padding-right: 1em;
+        }
+      }
+    }
+  }
+
+  .project-image {
+    flex: 1;
+
+    .img-1 {
+      max-width: 60%;
+      object-fit: scale-down;
+    }
+    .img-2 {
+      max-width: 100%;
+      object-fit: scale-down;
+      padding-left: 5em;
+      padding-top: 2em;
+    }
+    .img-3 {
+      max-width: 90%;
       object-fit: scale-down;
     }
   }

@@ -1,14 +1,15 @@
 import React from 'react';
 import './style.scss';
 
-import frontend from './../../images/domain.svg';
-import backend from './../../images/script.svg';
-import design from './../../images/desktop.svg';
-import tool from './../../images/settings.svg';
+import frontend from './../../images/ic-frontend.svg';
+import backend from './../../images/ic-backend.svg';
+import design from './../../images/ic-design.svg';
+import tool from './../../images/ic-tools.svg';
 
 function Skills() {
   return (
     <div className="technologies" id="Tech Skills">
+    <div className="container">
       <div className="technologies-title" data-aos="fade-down">
         <h1>Tech Skills</h1>
         <p>Some of the technologies I've worked with</p>
@@ -63,6 +64,7 @@ function Skills() {
             <li>Postman</li>
           </ul>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -3,10 +3,10 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './style.scss';
 import wasabi from './../../images/img-wasabi.png';
-import github from './../../images/ic-navbar-github.svg';
 
 import { Icon } from 'react-icons-kit';
 import { arrows_slim_right } from 'react-icons-kit/linea/arrows_slim_right';
+import {github} from 'react-icons-kit/icomoon/github'
 
 //Icons
 
@@ -34,7 +34,7 @@ const Wasabi = () => {
             rel="noopener noreferrer"
           >
             <div className="github-btn">
-              <img src={github} alt="github" /> <span>Github</span>
+            <Icon icon={github} size={20} /><span>Github</span>
             </div>
           </a>
           <a
