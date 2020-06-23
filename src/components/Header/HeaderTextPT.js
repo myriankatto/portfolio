@@ -2,15 +2,19 @@ import React from 'react';
 import TypeIt from 'typeit-react';
 import './style.scss';
 import { Link } from 'react-scroll';
+import video from '../../video/myrian.mp4'
 
 export default function HeaderText() {
   return (
     <div className="header-text">
+          <video autoPlay loop muted className="video">
+      <source src={video} type="video/mp4"/>
+    </video>
       <TypeIt
         options={{ cursor: false }}
         getBeforeInit={(instance) => {
           instance
-            .type('Full Stack Web Developer <br>focada em <strong>experiência do usuário.</strong>')
+            .type('Full Stack Developer focada <br>em <strong>experiência do usuário.</strong>')
             .pause(750)
             .delete(23)
             .pause(500)

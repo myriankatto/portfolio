@@ -33,7 +33,7 @@ const Wasabi = () => {
             <Icon icon={github} size={20} /> <span>Github</span>
             </div>
           </a>
-          <a href="https://github.com/myriankatto/project-1" target="_blank" rel="noopener noreferrer">
+          <a href="https://dontfeedwasabi.netlify.app" target="_blank" rel="noopener noreferrer">
             <div className="project-btn">
               <span>See Project</span>
               <Icon icon={arrows_slim_right} size={35} />

@@ -36,10 +36,10 @@ a:active {
 }
 
 ::selection {
-  background: #fb6f6f; /* WebKit/Blink Browsers */
+  background: #30333d; /* WebKit/Blink Browsers */
   color: white;
 }
 ::-moz-selection {
-  background: #fb6f6f; /* Gecko Browsers */
+  background: #30333d; /* Gecko Browsers */
   color: white;
 }

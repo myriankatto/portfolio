@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './style.scss';
 
-import about from './../../images/about-img-lg.png';
+import about from './../../images/about-img-lg1.png';
 
 const About = () => {
   useEffect(() => {
@@ -20,8 +20,8 @@ const About = () => {
             Sou uma Web Developer brasileira com ascendência japonesa vivendo em Florianópolis,
             Brasil. Trabalhei com design gráfico por quase 8 anos e em 2020 decidi transformar
             minha carreira. Acabei de finalizar um intensivo bootcamp de
-            Full Stack Web Development e agora estou em ansiosa para colocar este meu novo
-            conhecimento em prática juntamente com meus conhecimentos de design. Estou procurando
+            Full Stack Web Development e agora estou em busca de oportunidades para colocar este meu novo
+            conhecimento em prática juntamente com meus conhecimentos em design. Estou procurando
             uma oportunidade na área de tecnologia onde eu possa continuar aprendendo, colaborando,
             criando e desenvolvendo soluções criativas e produtos incríveis.
           </p>

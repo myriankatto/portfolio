@@ -51,8 +51,8 @@
         font-family: 'Roboto Slab';
         font-weight: 600;
         font-size: 0.8em;
-
         padding-left: 0.5em;
+
       }
 
       img {
@@ -223,7 +223,8 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin: 3em 2em;
+    margin: 0;
+    padding: 2em 1em;
   }
 
   .project-grey-bg {
@@ -263,14 +264,16 @@
 
 @media only screen and (min-width: 1300px) {
   .project {
-    width: 1200px;
+    width: 1900px;
     margin: 0 auto;
+    padding: 8em;
   }
 
   .project-grey-bg {
-    width: 1200px;
-    margin: 0 auto;
-    background-color: white;
+    width: 1900px;
+    margin: 8em auto;
+    padding: 10em;
+    background-color: #f8fafd;
   }
 
   .project-content {
@@ -283,73 +286,15 @@
     p {
       font-size: 1.2em;
     }
-    .content-btn {
-      margin-top: 2.5em;
-
-      .github-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.5em 1em;
-        border-radius: 2em;
-        border: #30333d 1px solid;
-        margin-right: 1em;
-
-        span {
-          text-decoration: none;
-          font-family: 'Roboto Slab';
-          font-weight: 600;
-          font-size: 0.8em;
-          color: #30333d;
-          padding-left: 0.5em;
-        }
-        img {
-          width: 20px;
-        }
-      }
-      .project-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.1em 2em;
-        border-radius: 2em;
-        border: #30333d 1px solid;
-        background-color: #30333d;
-        color: white;
-        span {
-          font-family: 'Roboto Slab';
-          font-weight: 600;
-          font-size: 0.8em;
-          padding-right: 1.5em;
-        }
-      }
-    }
-    .content-icons {
-      margin-top: 1em;
-      span {
-        font-family: 'Roboto';
-        text-transform: uppercase;
-        font-size: 0.5em;
-        font-weight: 600;
-        padding-right: 0.5em;
-      }
-      .icons {
-        display: flex;
-        margin-top: 0.6em;
-        align-items: baseline;
-        position: relative;
-        img {
-          padding-right: 1em;
-        }
-      }
-    }
   }
+    
 
   .project-image {
     flex: 1;
 
     .img-1 {
       max-width: 60%;
+      margin-left: 30px;
       object-fit: scale-down;
     }
     .img-2 {
