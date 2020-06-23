@@ -20,7 +20,7 @@ const Contacts = () => {
         <div className="container">
           <h1>Get in touch:</h1>
           <h5>myriankatto@gmail.com</h5>
-          <h5>+55 11 998025678</h5>
+          <h5>+55 48 91178535</h5>
           <div className="icons">
             <a
               href="https://github.com/myriankatto"
