@@ -1,4 +1,4 @@
-import React, {  useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './style.scss';
@@ -15,15 +15,20 @@ const About = () => {
       <div className="about-text">
         <div data-aos="fade-down">
           <h3>Sobre</h3>
-          <h1>Myrian Katto</h1>
+          <h1>Oi, eu sou a Myrian.</h1>
           <p>
-            Sou uma Web Developer brasileira com ascendência japonesa vivendo em Florianópolis,
-            Brasil. Trabalhei com design gráfico por quase 8 anos e em 2020 decidi transformar
-            minha carreira. Acabei de finalizar um intensivo bootcamp de
-            Full Stack Web Development e agora estou em busca de oportunidades para colocar este meu novo
-            conhecimento em prática juntamente com meus conhecimentos em design. Estou procurando
-            uma oportunidade na área de tecnologia onde eu possa continuar aprendendo, colaborando,
-            criando e desenvolvendo soluções criativas e produtos incríveis.
+            Sou uma Front-End Developer 👩‍💻 brasileira com ascendência japonesa começando uma nova
+            carreira. Eu acredito no desenvolvimento e design centrados no ser humano. E tenho
+            muito curiosidade sobre toda a parte visual da web, principalmente questões de
+            usabilidade e acessibilidade. Eu quero que a web seja algo fácil de usar, bonito e
+            acessível a todas as pessoas. Eu trabalhei como designer gráfico nos últimos 8 anos e
+            tenho certeza que ter experiências tanto na área de desenvolvimento como na de design me
+            ajudarão a alcançar meus objetivos, desenvolvendo grandes projetos e experiências
+            incríveis. Tento ir mais longe, sempre que possível, e estou em busca de novas
+            tecnologias o tempo inteiro, a fim de desenvolver soluções criativas, criar efeitos e
+            animações de interface e construir experiências dinâmicas e intuitivas. No meu tempo
+            livre, podem me encontrar em alguma praia 🏖 de Florianópolis, viajando por algum lugar
+            no mundo ou acariciando meus dois gatos 🐈.
           </p>
         </div>
       </div>

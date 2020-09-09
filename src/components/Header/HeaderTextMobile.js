@@ -13,15 +13,15 @@ export default function HeaderText() {
         options={{ cursor: false }}
         getBeforeInit={(instance) => {
           instance
-            .type('Full Stack Developer focused <br>on <strong>user experiences.</strong>')
+          .type('Front-End Developer focused <br>on <strong>new technologies.</strong>')
             .pause(750)
             .delete(17)
             .pause(500)
-            .type('<strong>new technologies.</strong>')
+            .type('<strong>human-centered development.</strong>')
             .pause(750)
-            .delete(17)
+            .delete(27)
             .pause(500)
-            .type('<strong>solving problems.</strong>')
+            .type('<strong>user experiences.</strong>')
             .pause(750)
             .delete(17)
             .pause(500)

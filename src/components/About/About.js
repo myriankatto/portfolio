@@ -14,16 +14,20 @@ const About = () => {
     <div className="about" id="About">
       <div className="about-text">
         <div data-aos="fade-down">
-      
           <h3>About</h3>
-          <h1>Myrian Katto</h1>
+          <h1>Hi, I'm Myrian.</h1>
           <p>
-            I'm a Japanese-Brazilian Web Developer based in Florianópolis, Brazil. After working with graphic design for almost 8 years, I've decided to switch my career to
-            something more challenging. I just graduated from an intensive Full Stack Web
-            Development bootcamp and now I'm looking forward to putting all this new knowledge in
-            practice combined with my design skills. I’m looking for an opportunity in the tech
-            industry where I can continue learning, collaborating, creating and developing new great
-            innovative solutions for the world.
+            I'm a Japanese-Brazilian Front-End developer 👩‍💻 starting a new career path. I strongly
+            believe in human-centered development and design and I’m curious about the whole visual
+            part of the web, mainly its usability and accessibility. I want to make the web easy to
+            use, beautiful, accessible to all. I worked as a Graphic Designer for the past 8 years
+            and I'm sure that having experience in both design and development will help me me to
+            achieve my goals building great projects and amazing user experiences. I always try to
+            go the extra mile wherever possible and I'm always looking for new technologies to
+            develop creative solutions, create incredible UI effects, animations and build
+            intuitive, dynamic user experiences. In my free time you can find me enjoying the beach
+            🏖 in Florianópolis - Brazil, traveling somewhere around the globe or cuddling my two
+            lovely cats 🐈.
           </p>
         </div>
       </div>

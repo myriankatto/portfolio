@@ -4,18 +4,6 @@
   display: none;
 }
 .header-container {
-  //   background: url('./../../images/about-img1.png.png') no-repeat bottom,
-  //     -moz-linear-gradient(135deg, #fb6f6f 0, #ed4541 14%, #f45757 63%, #ed4141 100%);
-  //   background: url('./../../images/about-img1.png') no-repeat bottom,
-  //     -webkit-gradient(135deg, #fb6f6f 0, #ed4541 14%, #f45757 63%, #ed4141 100%);
-  //   background: url('./../../images/about-img1.png') no-repeat bottom,
-  //     -webkit-linear-gradient(135deg, #fb6f6f 0, #ed4541 14%, #f45757 63%, #ed4141 100%);
-  //   background: url('./../../images/about-img1.png') no-repeat bottom,
-  //     -o-linear-gradient(135deg, #fb6f6f 0, #ed4541 14%, #f45757 63%, #ed4141 100%);
-  //   background: url('./../../images/about-img1.png') no-repeat bottom,
-  //     -ms-linear-gradient(135deg, #fb6f6f 0, #ed4541 14%, #f45757 63%, #ed4141 100%);
-  //   background: url('./../../images/about-img1.png') no-repeat bottom,
-  //     linear-gradient(135deg, #fb6f6f 0, #ed4541 14%, #f45757 63%, #ed4141 100%);
   width: 100vw;
   height: 100vh;
 
@@ -26,6 +14,8 @@
     z-index: -1;
     left: 0;
     top: 0;
+    background-color: #161617;
+
   }
 
   .header-text {
@@ -52,7 +42,7 @@
     height: 25;
     top: 75%;
     left: 50%;
-     // Animations
+    // Animations
     @-webkit-keyframes scroll-ani {
       0% {
         opacity: 1;
